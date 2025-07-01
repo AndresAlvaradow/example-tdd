@@ -36,3 +36,5 @@ htmlcov/
 
 # Dependencias si usas poetry
 poetry.lock
+.idea/
+node_modules/
