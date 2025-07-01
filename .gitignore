@@ -1,0 +1,38 @@
+# Entornos virtuales
+.venv/
+env/
+venv/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*.so
+
+# Configuración de VSCode
+.vscode/
+
+# Archivos de logs
+*.log
+
+# Archivos temporales
+*.swp
+.DS_Store
+
+# Archivos de tests
+.coverage
+htmlcov/
+
+# Archivos generados por pytest, mypy, etc.
+.pytest_cache/
+.mypy_cache/
+
+# Archivos de entorno o secretos
+.env
+.env.*
+
+# Base de datos local o SQLite
+*.db
+*.sqlite3
+
+# Dependencias si usas poetry
+poetry.lock
